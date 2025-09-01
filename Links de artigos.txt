@@ -1,0 +1,8 @@
+tRATAMENTO DADOS DESBALANCEADOS: https://medium.com/turing-talks/dados-desbalanceados-o-que-são-e-como-evitá-los-43df4f49732b
+
+SELECIONAR MELHORES VARIÁVEIS: https://medium.com/data-hackers/como-selecionar-melhores-variáveis-para-o-seu-modelo-com-boruta-ef7cbfb3fc35
+
+KNN: https://medium.com/brasil-ai/knn-k-nearest-neighbors-1-e140c82e9c4e
+
+CROSS VALIDATION: https://medium.com/@edubrazrabello/cross-validation-avaliando-seu-modelo-de-machine-learning-1fb70df15b78 
+
