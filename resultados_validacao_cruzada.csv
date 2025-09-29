@@ -1,0 +1,13 @@
+﻿Balanceamento,Modelo,F1-Score Médio,Desvio Padrão
+Original,Logistic Regression,0.7368,0.0159
+Original,Random Forest,0.8507,0.0087
+Original,XGBoost,0.6623,0.3202
+SMOTE,Logistic Regression,0.9513,0.0002
+SMOTE,Random Forest,0.9999,0.0000
+SMOTE,XGBoost,0.9997,0.0001
+Random Under Sampling,Logistic Regression,0.9425,0.0191
+Random Under Sampling,Random Forest,0.9404,0.0194
+Random Under Sampling,XGBoost,0.9507,0.0096
+SMOTE + Tomek,Logistic Regression,0.9513,0.0002
+SMOTE + Tomek,Random Forest,0.9999,0.0000
+SMOTE + Tomek,XGBoost,0.9997,0.0001

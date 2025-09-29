@@ -1,13 +1,9 @@
 import kagglehub
-from kagglehub import KaggleDatasetAdapter
+import pandas as pd
+import shutil
+import os
 
-file_path = "creditcard.csv"  # Certifique-se de não ter espaços extras
+path = kagglehub.dataset_download("mlg-ulb/creditcardfraud")
+shutil.copy2(os.path.join(path, "creditcard.csv"), r'C:\Users\dados1\Documents\tcc\tcc\dados_cartao_credito.csv')
 
-df = kagglehub.dataset_load(
-    KaggleDatasetAdapter.PANDAS,
-    "mlg-ulb/creditcardfraud",
-    file_path
-)
-
-print(df.head())
-print(df.shape)
+df = pd.read_csv(r'C:\Users\dados1\Documents\tcc\tcc\dados_cartao_credito.csv')

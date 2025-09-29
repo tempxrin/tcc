@@ -1,0 +1,13 @@
+﻿Balanceamento,Modelo,Precision,Recall,F1-Score,AUC-ROC
+Original,Logistic Regression,0.8289,0.6429,0.7241,0.9573
+Original,Random Forest,0.9412,0.8163,0.8743,0.9630
+Original,XGBoost,0.8667,0.7959,0.8298,0.9390
+SMOTE,Logistic Regression,0.0581,0.9184,0.1094,0.9698
+SMOTE,Random Forest,0.8454,0.8367,0.8410,0.9731
+SMOTE,XGBoost,0.7311,0.8878,0.8018,0.9792
+Random Under Sampling,Logistic Regression,0.0384,0.9184,0.0738,0.9760
+Random Under Sampling,Random Forest,0.0423,0.9184,0.0809,0.9777
+Random Under Sampling,XGBoost,0.0333,0.9184,0.0644,0.9749
+SMOTE + Tomek,Logistic Regression,0.0581,0.9184,0.1094,0.9698
+SMOTE + Tomek,Random Forest,0.8454,0.8367,0.8410,0.9731
+SMOTE + Tomek,XGBoost,0.7311,0.8878,0.8018,0.9792
